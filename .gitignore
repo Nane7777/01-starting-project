@@ -1,5 +1,78 @@
-node_modules
+# === IDEA specific ===
+*.iml
+.idea/
 .DS_Store
-dist
-dist-ssr
-*.local
+
+# === Local configuration files ===
+local.properties
+/.idea/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# === Gradle specific ===
+.gradle/
+/build/
+.gradlew
+.gradlew.bat
+.gradle/*
+
+# === Compiled code ===
+*.class
+*.dex
+
+# === Kotlin build artifacts ===
+*.kotlin_module
+*.log
+*.bin
+*.tab
+*.tab.*
+
+# === Log files ===
+*.log
+*.tmp
+
+# === Android Build files ===
+/build/
+captures/
+output/
+*.apk
+*.ap_
+
+# === External native build ===
+.externalNativeBuild/
+.cxx/
+
+# === Test-related files ===
+**/debug/
+**/androidTest/
+**/debugAndroidTest/
+**/unitTest/
+
+# === Snapshots and intermediate files ===
+/intermediates/
+/intermediates/**/*
+
+# === Generated Res ===
+/generated/
+/packaged_res/
+
+# === Lint related files ===
+/outputs/logs/
+
+# === APK outputs ===
+/outputs/apk/
+*.apk
+*.apks
+*.aab
+
+# === Misc ===
+/captures
+.externalNativeBuild
+.snapshot
+# Temporary files
+*.temp
+*.tmp
